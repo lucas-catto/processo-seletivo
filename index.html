@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Processo Seletivo</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+
+        <header>
+            <h1>Logo</h1>
+        </header>
+
+        <main>
+            <form action="" method="get" id="form" autocomplete="off">
+
+                <fieldset>
+                    <legend>Nome Completo</legend>
+                    <input type="text" name="full_name" id="full_name" placeholder="Nome Completo" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Email</legend>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Senha</legend>
+                    <input type="password" name="password" id="password" placeholder="Senha" required>
+                </fieldset>
+
+                <div>
+                    <button onclick="clearForm()" id="clear-form">Limpar Formulário</button>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <p>By <a href="https://github.com/lucas-catto" target="_blank">lucas-catto</a></p>
+        </footer>
+        
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
